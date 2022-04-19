@@ -32,9 +32,6 @@ header nav {
     gap: 30px;
 }
 
-header .nav-item {
-    display: none;
-}
 
 header nav a{
     text-decoration: none;
@@ -97,6 +94,10 @@ header .header-lang-buttons a:first-child {
         justify-content: space-between;
         align-items: center;
         gap: 10px;
+    }
+
+    header .nav-item {
+        display: none;
     }
     
     header nav a{
