@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --sickly-yellow: #cbe346;
+    --pale-grey: #f3f4f8;
+    --text-color: #1e2335;
+    --text-color-inverse: white;
+    --text-color-grey: #787878;
+    --text-color-footer: #2b3049;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
