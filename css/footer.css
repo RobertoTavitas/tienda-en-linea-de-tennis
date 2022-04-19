@@ -53,3 +53,18 @@ footer .col2 {
 footer .col2 img {
     width: 55px;
 }
+
+@media (max-width: 720px) {
+    footer .footer-nav {
+        gap: 25px;
+    }
+
+    .footer-nav .nav-item {
+        display: none;
+    }
+
+    footer .col2 {
+        align-items: flex-end;
+        margin-bottom: 6px;
+    }
+}

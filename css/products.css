@@ -118,3 +118,46 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 720px) {
+    #products {
+        flex-direction: row;
+        height: 468px;
+        flex-direction: column;
+        height: 150vh;
+    }
+
+    #products .gallery {
+        flex-direction: row;
+        flex-direction: column;
+    }
+
+    #products .carousel-container {
+        align-self: flex-end;
+        margin-right: 30px;
+        align-self: center;
+    }
+
+    #products .carousel .option {
+        justify-content: flex-start;
+        gap: 15px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    #products .carousel .buttons {
+        justify-content: flex-start;
+        gap: 15px;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    #products .carousel-container .title {
+        text-align: center;
+    }
+
+    #products .carousel-container .text {
+        text-align: center;
+    }
+
+}

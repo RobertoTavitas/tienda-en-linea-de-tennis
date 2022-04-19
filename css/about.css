@@ -63,7 +63,15 @@
     line-height: 28px;
 }
 
-@media (min-width: 720px) {
+/* Tablets */
+@media (max-width:850px) {
+    #about {
+        height: 55vh;
+    }
+}
+
+/* Big devices */
+@media (min-width: 900px) {
     #about {
         display: flex;
         flex-direction: row;

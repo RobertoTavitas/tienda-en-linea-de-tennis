@@ -1,4 +1,3 @@
-/* Start Navbar */
 header {
     display: flex;
     justify-content: space-around;
@@ -40,11 +39,6 @@ header nav a{
     letter-spacing: 1.5px;
     font-weight: 400;
     padding-bottom: 5px;
-}
-
-header nav a:first-child {
-    border-bottom: 2px solid white;
-    font-weight: bold;
 }
 
 header nav a:hover {
@@ -109,14 +103,8 @@ header .header-lang-buttons a:first-child {
         padding-bottom: 5px;
     }
 
-    header nav a:first-child {
-        border-bottom: none;
-        font-weight: 400;
-    }
     
     header .header-lang-buttons {
         display: none;
     }
 }
-
-/* End Navbar */
