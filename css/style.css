@@ -142,7 +142,7 @@ section#hero {
 }
 
 #hero .button {
-    margin-top: 50px;
+    margin-top: 160px;
 }
 
 #hero .button a {
@@ -500,6 +500,11 @@ section#hero {
         align-self: flex-end;
         margin-right: 30px;
         align-self: center;
+    }
+
+    #products .carousel {
+        width: 100%;
+        background-position: left;
     }
 
     #products .carousel .option {
