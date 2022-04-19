@@ -1,6 +1,6 @@
 /* Start Hero */
 body {
-    background-image: url(../assets/jpg/group.jpg);
+    background-image: url(../assets/png/group@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -80,16 +80,18 @@ section#hero {
     #hero .button a {
         text-decoration: none;
         color: var(--text-color-inverse);
-        font-size: 26px;
+        font-size: 13px;
         border: solid 1px var(--text-color-inverse);
         border-radius: 26.5px;
-        padding: 0.4em 1em;
+        padding: 1.4em 4em;
+        line-height: 28px;
+        letter-spacing: 1.1px;
     }
     
     .line {
         opacity: 1;
         width: 1px;
-        height: 84vh;
+        height: 93vh;
         margin: -120px 0px 0px 135px;
         border: solid 2px var(--text-color-inverse);
         position: absolute;
